@@ -1,0 +1,65 @@
+body {
+    background-color: dimgray;
+    color: whitesmoke;
+}
+.white {
+    color: whitesmoke;
+}
+.white:hover {
+    color: limegreen
+}
+a {
+    text-decoration: none;
+    color: limegreen;
+}
+a:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+h3 {
+    color: limegreen;
+    font-size: 18pt;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h3:hover {
+    color: whitesmoke;
+}
+p {
+    font-size: 18pt;
+}
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 1000px;
+}
+.content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+td {
+    font-size: 25pt;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+li {
+    font-size: 18pt;
+}

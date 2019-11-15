@@ -1,0 +1,45 @@
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 1000px;
+}
+.content {
+  position: fixed;
+  background: rgba(0, 0, 0, 0);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.center {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+p {
+  font-size: 18pt;
+  width: 40%;
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  font-size: 16pt;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: limegreen;
+}
+a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
